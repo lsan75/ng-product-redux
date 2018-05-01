@@ -1,0 +1,29 @@
+.Wrapper {
+  margin: 1.5rem;
+}
+  .PriceList__Item {
+    padding: 0 1.5rem 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+    .PriceList__Item__Name, .PriceList__Item__Price {
+      font-size: 0.75rem;
+      font-weight: normal;
+    }
+
+  .TotalPrice {
+    background: #333;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem 1.5rem 1rem;
+    margin: 0 0 1.5rem;
+  }
+    .TotalPrice__Title {
+      color: #fff;
+    }
+    .TotalPrice__Value {
+      color: #fff;
+    }

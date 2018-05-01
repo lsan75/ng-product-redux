@@ -1,0 +1,8 @@
+.appMain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+  .appMain__column {
+    flex: 1
+  }

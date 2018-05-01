@@ -1,0 +1,11 @@
+<ul class="ProductList">
+  <li
+    *ngFor="let product of productList"
+    [ngClass]="{selected: product.selected}"
+    (click)="selectProduct(product)"
+    class="ProductList__Item"
+  >
+    <strong class="ProductList__Item__Name">{{ product.name }}</strong>
+    <span class="ProductList__Item__Price">{{ product.price }}&euro;</span>
+  </li>
+</ul>

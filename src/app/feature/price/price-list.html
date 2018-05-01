@@ -1,0 +1,18 @@
+<section class="Wrapper">
+
+  <article class="TotalPrice">
+    <h2 class="TotalPrice__Title">Total</h2>
+    <span class="TotalPrice__Value">{{ totalPrice | number }} &euro;</span>
+  </article>
+
+  <ul class="PriceList">
+    <li
+      *ngFor="let product of products"
+      class="PriceList__Item"
+    >
+      <strong class="PriceList__Item__Name">{{ product.name }}</strong>
+      <span class="PriceList__Item__Price"> {{ product.price }} &euro;</span>
+    </li>
+  </ul>
+
+</section>

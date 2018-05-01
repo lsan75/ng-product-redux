@@ -1,0 +1,34 @@
+.ProductList {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 1.5rem;
+}
+  .ProductList__Item {
+    background: rgb(194, 192, 187) url('/assets/cellphone.svg') no-repeat center center;
+    background-size: 2.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 1.5rem 1.5rem 0;
+    height: 9rem;
+    width: 9rem;
+    transition: background-color 300ms;
+  }
+  .ProductList__Item:hover {
+    background-color: #ddd;
+  }
+  .ProductList__Item.selected, .ProductList__Item.selected:hover {
+    background-color: rgb(221, 174, 72);
+  }
+    .ProductList__Item__Name {
+      font-size: 0.75rem;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+    .ProductList__Item__Price {
+      font-size: 0.6rem;
+    }
