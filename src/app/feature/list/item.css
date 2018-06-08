@@ -2,7 +2,6 @@
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
   margin: 1.5rem;
 }
   .ProductList__Item {
@@ -22,7 +21,7 @@
     background-color: #ddd;
   }
   .ProductList__Item.selected, .ProductList__Item.selected:hover {
-    background-color: rgb(221, 174, 72);
+    background-color: rgb(72, 165, 221);
   }
     .ProductList__Item__Name {
       font-size: 0.75rem;
